@@ -1,0 +1,45 @@
+body {
+	background: url('../images/escheresque_ste.png');
+	font-size: 16px;
+	color: #000;
+}
+
+.content {
+	background-color: #EBEBEB;
+	border-left: 5px dashed #000; 
+	border-right: 5px dashed #000;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 10%;
+	right: 10%;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
+#topicList {
+	margin: auto;
+	position: relative;
+	top: 10px;
+	border-top: 3px solid #000;
+}
+
+#messageList {
+	margin: auto; 
+	position: relative;
+	top: 10px;
+}
+
+#messageList tr {
+	height: 150px;
+	background-color: #E0E0E0;
+	border: 3px solid #000;
+}
+
+#messageList td {
+	padding: 20px;
+}
